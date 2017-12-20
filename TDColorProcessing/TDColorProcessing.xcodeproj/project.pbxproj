@@ -7,30 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1819DC301FDACAD9004A2131 /* color.png in Resources */ = {isa = PBXBuildFile; fileRef = 1819DC2F1FDACAD9004A2131 /* color.png */; };
+		187EE2E41FEA4F9A0032AC6E /* aa512.png in Resources */ = {isa = PBXBuildFile; fileRef = 187EE2DF1FEA4F9A0032AC6E /* aa512.png */; };
+		187EE2E51FEA4F9A0032AC6E /* aa640.png in Resources */ = {isa = PBXBuildFile; fileRef = 187EE2E01FEA4F9A0032AC6E /* aa640.png */; };
+		187EE2E61FEA4F9A0032AC6E /* aa960.png in Resources */ = {isa = PBXBuildFile; fileRef = 187EE2E11FEA4F9A0032AC6E /* aa960.png */; };
+		187EE2E71FEA4F9A0032AC6E /* aa1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 187EE2E21FEA4F9A0032AC6E /* aa1024.png */; };
+		187EE2E81FEA4F9A0032AC6E /* aa2000.png in Resources */ = {isa = PBXBuildFile; fileRef = 187EE2E31FEA4F9A0032AC6E /* aa2000.png */; };
 		18B1B4321FDBE9730010E7FC /* ColColorListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B1B42F1FDBE9730010E7FC /* ColColorListCell.swift */; };
 		18B1B4341FDBE9730010E7FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B1B4311FDBE9730010E7FC /* ViewController.swift */; };
-		18B1B4371FDBE9CF0010E7FC /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B1B4361FDBE9CF0010E7FC /* SecondVC.swift */; };
 		18F66B9F1FDAAD9F0001FBA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F66B9E1FDAAD9F0001FBA4 /* AppDelegate.swift */; };
 		18F66BA41FDAAD9F0001FBA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F66BA21FDAAD9F0001FBA4 /* Main.storyboard */; };
 		18F66BA61FDAAD9F0001FBA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F66BA51FDAAD9F0001FBA4 /* Assets.xcassets */; };
 		18F66BA91FDAAD9F0001FBA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F66BA71FDAAD9F0001FBA4 /* LaunchScreen.storyboard */; };
-		18F66BB11FDAAE930001FBA4 /* dog.png in Resources */ = {isa = PBXBuildFile; fileRef = 18F66BB01FDAAE930001FBA4 /* dog.png */; };
 		38FF5DC7FC4DF3C5DCCFF973 /* Pods_TDColorProcessing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AB682A22DFFDB495DF3DAED /* Pods_TDColorProcessing.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1819DC2F1FDACAD9004A2131 /* color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = color.png; sourceTree = "<group>"; };
+		187EE2DF1FEA4F9A0032AC6E /* aa512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aa512.png; sourceTree = "<group>"; };
+		187EE2E01FEA4F9A0032AC6E /* aa640.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aa640.png; sourceTree = "<group>"; };
+		187EE2E11FEA4F9A0032AC6E /* aa960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aa960.png; sourceTree = "<group>"; };
+		187EE2E21FEA4F9A0032AC6E /* aa1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aa1024.png; sourceTree = "<group>"; };
+		187EE2E31FEA4F9A0032AC6E /* aa2000.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aa2000.png; sourceTree = "<group>"; };
 		18B1B42F1FDBE9730010E7FC /* ColColorListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColColorListCell.swift; sourceTree = "<group>"; };
 		18B1B4311FDBE9730010E7FC /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		18B1B4361FDBE9CF0010E7FC /* SecondVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
 		18F66B9B1FDAAD9F0001FBA4 /* TDColorProcessing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TDColorProcessing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F66B9E1FDAAD9F0001FBA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18F66BA31FDAAD9F0001FBA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18F66BA51FDAAD9F0001FBA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18F66BA81FDAAD9F0001FBA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18F66BAA1FDAAD9F0001FBA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		18F66BB01FDAAE930001FBA4 /* dog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dog.png; sourceTree = "<group>"; };
 		51B7DB829624A27E7C9349F7 /* Pods-TDColorProcessing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDColorProcessing.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TDColorProcessing/Pods-TDColorProcessing.debug.xcconfig"; sourceTree = "<group>"; };
 		611FF219822018CD3AFE02BB /* Pods-TDColorProcessing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDColorProcessing.release.xcconfig"; path = "Pods/Target Support Files/Pods-TDColorProcessing/Pods-TDColorProcessing.release.xcconfig"; sourceTree = "<group>"; };
 		9AB682A22DFFDB495DF3DAED /* Pods_TDColorProcessing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TDColorProcessing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -57,19 +61,14 @@
 			path = FirstVC;
 			sourceTree = "<group>";
 		};
-		18B1B4351FDBE9A50010E7FC /* SecondVC */ = {
-			isa = PBXGroup;
-			children = (
-				18B1B4361FDBE9CF0010E7FC /* SecondVC.swift */,
-			);
-			path = SecondVC;
-			sourceTree = "<group>";
-		};
 		18F66B921FDAAD9F0001FBA4 = {
 			isa = PBXGroup;
 			children = (
-				18F66BB01FDAAE930001FBA4 /* dog.png */,
-				1819DC2F1FDACAD9004A2131 /* color.png */,
+				187EE2DF1FEA4F9A0032AC6E /* aa512.png */,
+				187EE2E01FEA4F9A0032AC6E /* aa640.png */,
+				187EE2E11FEA4F9A0032AC6E /* aa960.png */,
+				187EE2E21FEA4F9A0032AC6E /* aa1024.png */,
+				187EE2E31FEA4F9A0032AC6E /* aa2000.png */,
 				18F66B9D1FDAAD9F0001FBA4 /* TDColorProcessing */,
 				18F66B9C1FDAAD9F0001FBA4 /* Products */,
 				4F4C8264B59017B15B6E2C8B /* Pods */,
@@ -90,7 +89,6 @@
 			children = (
 				18F66B9E1FDAAD9F0001FBA4 /* AppDelegate.swift */,
 				18B1B42E1FDBE9730010E7FC /* FirstVC */,
-				18B1B4351FDBE9A50010E7FC /* SecondVC */,
 				18F66BA21FDAAD9F0001FBA4 /* Main.storyboard */,
 				18F66BA51FDAAD9F0001FBA4 /* Assets.xcassets */,
 				18F66BA71FDAAD9F0001FBA4 /* LaunchScreen.storyboard */,
@@ -151,6 +149,7 @@
 				TargetAttributes = {
 					18F66B9A1FDAAD9F0001FBA4 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = C7P36NR8J7;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -178,11 +177,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18F66BB11FDAAE930001FBA4 /* dog.png in Resources */,
 				18F66BA91FDAAD9F0001FBA4 /* LaunchScreen.storyboard in Resources */,
-				1819DC301FDACAD9004A2131 /* color.png in Resources */,
+				187EE2E81FEA4F9A0032AC6E /* aa2000.png in Resources */,
+				187EE2E51FEA4F9A0032AC6E /* aa640.png in Resources */,
 				18F66BA61FDAAD9F0001FBA4 /* Assets.xcassets in Resources */,
+				187EE2E41FEA4F9A0032AC6E /* aa512.png in Resources */,
 				18F66BA41FDAAD9F0001FBA4 /* Main.storyboard in Resources */,
+				187EE2E71FEA4F9A0032AC6E /* aa1024.png in Resources */,
+				187EE2E61FEA4F9A0032AC6E /* aa960.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,7 +249,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18B1B4371FDBE9CF0010E7FC /* SecondVC.swift in Sources */,
 				18B1B4321FDBE9730010E7FC /* ColColorListCell.swift in Sources */,
 				18B1B4341FDBE9730010E7FC /* ViewController.swift in Sources */,
 				18F66B9F1FDAAD9F0001FBA4 /* AppDelegate.swift in Sources */,
@@ -377,7 +378,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = C7P36NR8J7;
 				INFOPLIST_FILE = TDColorProcessing/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dahiyaboy.TDColorProcessing;
@@ -393,7 +394,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = C7P36NR8J7;
 				INFOPLIST_FILE = TDColorProcessing/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dahiyaboy.TDColorProcessing;

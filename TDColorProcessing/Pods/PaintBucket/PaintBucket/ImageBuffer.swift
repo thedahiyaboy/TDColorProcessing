@@ -43,6 +43,12 @@ class ImageBuffer {
     
     func scanline_replaceColor(_ colorPixel: Pixel, startingAtPoint startingPoint: (Int, Int), withColor replacementPixel: Pixel, tolerance: Int, antialias: Bool) {
         
+        if (colorPixel.r == 0) && (colorPixel.g == 0) && (colorPixel.b == 0) && (colorPixel.a == 255){
+            
+            print("black Color found")
+            return
+        }
+        
         func testPixelAtPoint(_ x: Int, _ y: Int) -> Bool {
             return differenceAtPoint(x, y, toPixel: colorPixel) <= tolerance
         }
