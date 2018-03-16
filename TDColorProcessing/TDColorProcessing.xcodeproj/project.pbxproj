@@ -7,12 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		187EE2E41FEA4F9A0032AC6E /* aa512.png in Resources */ = {isa = PBXBuildFile; fileRef = 187EE2DF1FEA4F9A0032AC6E /* aa512.png */; };
-		187EE2E51FEA4F9A0032AC6E /* aa640.png in Resources */ = {isa = PBXBuildFile; fileRef = 187EE2E01FEA4F9A0032AC6E /* aa640.png */; };
-		187EE2E61FEA4F9A0032AC6E /* aa960.png in Resources */ = {isa = PBXBuildFile; fileRef = 187EE2E11FEA4F9A0032AC6E /* aa960.png */; };
-		187EE2E71FEA4F9A0032AC6E /* aa1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 187EE2E21FEA4F9A0032AC6E /* aa1024.png */; };
-		187EE2E81FEA4F9A0032AC6E /* aa2000.png in Resources */ = {isa = PBXBuildFile; fileRef = 187EE2E31FEA4F9A0032AC6E /* aa2000.png */; };
-		187EE2EA1FEA7E510032AC6E /* aa64.png in Resources */ = {isa = PBXBuildFile; fileRef = 187EE2E91FEA7E510032AC6E /* aa64.png */; };
+		1819B710202037EB00F97795 /* aa2000.png in Resources */ = {isa = PBXBuildFile; fileRef = 1819B708202037EB00F97795 /* aa2000.png */; };
+		1819B713202037EB00F97795 /* week1_13.png in Resources */ = {isa = PBXBuildFile; fileRef = 1819B70B202037EB00F97795 /* week1_13.png */; };
+		1819B714202037EB00F97795 /* week2_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1819B70C202037EB00F97795 /* week2_1.png */; };
 		18B1B4321FDBE9730010E7FC /* ColColorListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B1B42F1FDBE9730010E7FC /* ColColorListCell.swift */; };
 		18B1B4341FDBE9730010E7FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B1B4311FDBE9730010E7FC /* ViewController.swift */; };
 		18F66B9F1FDAAD9F0001FBA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F66B9E1FDAAD9F0001FBA4 /* AppDelegate.swift */; };
@@ -23,12 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		187EE2DF1FEA4F9A0032AC6E /* aa512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aa512.png; sourceTree = "<group>"; };
-		187EE2E01FEA4F9A0032AC6E /* aa640.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aa640.png; sourceTree = "<group>"; };
-		187EE2E11FEA4F9A0032AC6E /* aa960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aa960.png; sourceTree = "<group>"; };
-		187EE2E21FEA4F9A0032AC6E /* aa1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aa1024.png; sourceTree = "<group>"; };
-		187EE2E31FEA4F9A0032AC6E /* aa2000.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aa2000.png; sourceTree = "<group>"; };
-		187EE2E91FEA7E510032AC6E /* aa64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aa64.png; sourceTree = "<group>"; };
+		1819B708202037EB00F97795 /* aa2000.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aa2000.png; sourceTree = "<group>"; };
+		1819B70B202037EB00F97795 /* week1_13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = week1_13.png; sourceTree = "<group>"; };
+		1819B70C202037EB00F97795 /* week2_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = week2_1.png; sourceTree = "<group>"; };
 		18B1B42F1FDBE9730010E7FC /* ColColorListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColColorListCell.swift; sourceTree = "<group>"; };
 		18B1B4311FDBE9730010E7FC /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		18F66B9B1FDAAD9F0001FBA4 /* TDColorProcessing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TDColorProcessing.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -54,6 +48,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1819B706202037EB00F97795 /* sample Images */ = {
+			isa = PBXGroup;
+			children = (
+				1819B708202037EB00F97795 /* aa2000.png */,
+				1819B70B202037EB00F97795 /* week1_13.png */,
+				1819B70C202037EB00F97795 /* week2_1.png */,
+			);
+			path = "sample Images";
+			sourceTree = "<group>";
+		};
 		18B1B42E1FDBE9730010E7FC /* FirstVC */ = {
 			isa = PBXGroup;
 			children = (
@@ -66,12 +70,7 @@
 		18F66B921FDAAD9F0001FBA4 = {
 			isa = PBXGroup;
 			children = (
-				187EE2E91FEA7E510032AC6E /* aa64.png */,
-				187EE2DF1FEA4F9A0032AC6E /* aa512.png */,
-				187EE2E01FEA4F9A0032AC6E /* aa640.png */,
-				187EE2E11FEA4F9A0032AC6E /* aa960.png */,
-				187EE2E21FEA4F9A0032AC6E /* aa1024.png */,
-				187EE2E31FEA4F9A0032AC6E /* aa2000.png */,
+				1819B706202037EB00F97795 /* sample Images */,
 				18F66B9D1FDAAD9F0001FBA4 /* TDColorProcessing */,
 				18F66B9C1FDAAD9F0001FBA4 /* Products */,
 				4F4C8264B59017B15B6E2C8B /* Pods */,
@@ -181,14 +180,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				18F66BA91FDAAD9F0001FBA4 /* LaunchScreen.storyboard in Resources */,
-				187EE2E81FEA4F9A0032AC6E /* aa2000.png in Resources */,
-				187EE2EA1FEA7E510032AC6E /* aa64.png in Resources */,
-				187EE2E51FEA4F9A0032AC6E /* aa640.png in Resources */,
 				18F66BA61FDAAD9F0001FBA4 /* Assets.xcassets in Resources */,
-				187EE2E41FEA4F9A0032AC6E /* aa512.png in Resources */,
+				1819B714202037EB00F97795 /* week2_1.png in Resources */,
+				1819B710202037EB00F97795 /* aa2000.png in Resources */,
 				18F66BA41FDAAD9F0001FBA4 /* Main.storyboard in Resources */,
-				187EE2E71FEA4F9A0032AC6E /* aa1024.png in Resources */,
-				187EE2E61FEA4F9A0032AC6E /* aa960.png in Resources */,
+				1819B713202037EB00F97795 /* week1_13.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,10 +213,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-TDColorProcessing/Pods-TDColorProcessing-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ChromaColorPicker/ChromaColorPicker.framework",
 				"${BUILT_PRODUCTS_DIR}/PaintBucket/PaintBucket.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChromaColorPicker.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PaintBucket.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

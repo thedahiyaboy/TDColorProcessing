@@ -7,4 +7,6 @@ target 'TDColorProcessing' do
 
   # Pods for TDColorProcessing
 pod 'PaintBucket'
+pod 'ChromaColorPicker'
+
 end

@@ -7,50 +7,81 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02088C37608DEB850C3292E253E9793E /* Pods-TDColorProcessing-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F81C9A938B4A382CC94AB3A41EA9BA17 /* Pods-TDColorProcessing-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CCA81B9BFAFFA78C63594B01881EAE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		2CD7BD2F25A728501BCA2B2226271982 /* ChromaColorPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A92A69A56B3CF7425A4A93915E3FFDB0 /* ChromaColorPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F6CDE3B2BA4DA36386508A448EB8C1D /* ChromaColorPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = F54F89FF021C2E5BA1ED9243F9D395B9 /* ChromaColorPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40035A7E409B83DCFF7FEB781C2EED00 /* ChromaColorPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 924C5EE0AEDEECA7519BC3F725B9D9FB /* ChromaColorPicker-dummy.m */; };
 		4007EDD4D303909FAF59E96135C4A8C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		46A51D779FB79B0F9848382BA94EC0EC /* Pixel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50D199ED184062514C8266302B9B3C4 /* Pixel.swift */; };
-		48B019D23DEB9736A3634836A72DEBE7 /* UIImage+PaintBucket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDBCBA0AB81D5D7EE30258CAD0B38D8 /* UIImage+PaintBucket.swift */; };
-		4D76F7E6026B1D0F18D5882884E67DC4 /* PaintBucket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 45D9516CADC9EBBA373DC49AA28ABDBD /* PaintBucket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		885A004CF24C597360EEABF5CB823B86 /* ImageBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CB169935A44ABEA3062EF0D67050EA /* ImageBuffer.swift */; };
-		C76E25EA1B64461067FBCD94571FF136 /* Pods-TDColorProcessing-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E885B2CCA54CC0E4245910F50F34CBE /* Pods-TDColorProcessing-dummy.m */; };
-		D3B4E20A5C2AE7277301DAC24A45B51E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		E59B421C3540F1EA9C43D16ACB32149A /* PaintBucket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BDD3E8505CBD06A7DB7D063F3AEE71BC /* PaintBucket-dummy.m */; };
+		46A51D779FB79B0F9848382BA94EC0EC /* Pixel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDCE2036CEDF23CE298E18CF3AB7906 /* Pixel.swift */; };
+		46BE6075A78FD94B44FA92245C2486A4 /* ChromaAddButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE215A37709AC7871E78FD0D4824DE9 /* ChromaAddButton.swift */; };
+		48B019D23DEB9736A3634836A72DEBE7 /* UIImage+PaintBucket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1250C2786592B8195DA7E06D47C84A16 /* UIImage+PaintBucket.swift */; };
+		4D76F7E6026B1D0F18D5882884E67DC4 /* PaintBucket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B5BAA8EFA752D3E4EEB2B01E53289A0 /* PaintBucket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		885A004CF24C597360EEABF5CB823B86 /* ImageBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1D0C6EEBB6230A88D8C61B71559888 /* ImageBuffer.swift */; };
+		8C81A1CEF8720A2EEE2BE86779865157 /* UIColor+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6A89DE03C55296C62889641A6AE8F0 /* UIColor+Utilities.swift */; };
+		92F8161F4E07A53E57E3EB2E1FA62238 /* ColorModeToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA307732A67DF2AC24E8E41E78DA10A /* ColorModeToggleButton.swift */; };
+		AAB4FC655A697CF0F90079CC2C69E0C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		CF264CDB3100B4C274326F95F32BC88B /* ChromaColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52B629F78D9AC19A131E53D3E10E443 /* ChromaColorPicker.swift */; };
+		D0A1A302617ECB17662CEA2A96E35D0C /* Pods-TDColorProcessing-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E885B2CCA54CC0E4245910F50F34CBE /* Pods-TDColorProcessing-dummy.m */; };
+		E59B421C3540F1EA9C43D16ACB32149A /* PaintBucket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B43AC55BFDA8B6506F59E75584B42FE /* PaintBucket-dummy.m */; };
+		EB82E7DA872E98A1B0B1F66C7CE15702 /* ChromaHandle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237EF5F533AEBFC117F06DB6BC18ABEC /* ChromaHandle.swift */; };
+		F5291EDEF9A7672B5BA0E58B1EECF6E1 /* Pods-TDColorProcessing-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F81C9A938B4A382CC94AB3A41EA9BA17 /* Pods-TDColorProcessing-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB24018F9DFDC79925597D4878E12FD4 /* ChromaShadeSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE6BF1C5BEFA46890BCFE2397183163 /* ChromaShadeSlider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		C89E9D6F4AFFDB0EC6A18624C4077324 /* PBXContainerItemProxy */ = {
+		9AA1FFD7BB4E9196E39091895FD1C991 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 9BECF1D7FFDC9EDFF4075015C983856C;
 			remoteInfo = PaintBucket;
 		};
+		A78829BEAF967454B886233962BEAC9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99AA48135ECB557858428F797600458F;
+			remoteInfo = ChromaColorPicker;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C2AB8963F11D0F865E1EE57310E4B3D /* PaintBucket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PaintBucket-prefix.pch"; sourceTree = "<group>"; };
+		0E6A89DE03C55296C62889641A6AE8F0 /* UIColor+Utilities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+Utilities.swift"; path = "ChromaColorPicker/UIColor+Utilities.swift"; sourceTree = "<group>"; };
+		0EDCE2036CEDF23CE298E18CF3AB7906 /* Pixel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Pixel.swift; path = PaintBucket/Pixel.swift; sourceTree = "<group>"; };
+		1250C2786592B8195DA7E06D47C84A16 /* UIImage+PaintBucket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+PaintBucket.swift"; path = "PaintBucket/UIImage+PaintBucket.swift"; sourceTree = "<group>"; };
+		237EF5F533AEBFC117F06DB6BC18ABEC /* ChromaHandle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChromaHandle.swift; path = ChromaColorPicker/ChromaHandle.swift; sourceTree = "<group>"; };
 		2672046A3CE49C19FA4964A5C3FECD64 /* Pods-TDColorProcessing-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TDColorProcessing-frameworks.sh"; sourceTree = "<group>"; };
-		2CDBCBA0AB81D5D7EE30258CAD0B38D8 /* UIImage+PaintBucket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+PaintBucket.swift"; path = "PaintBucket/UIImage+PaintBucket.swift"; sourceTree = "<group>"; };
+		2FE215A37709AC7871E78FD0D4824DE9 /* ChromaAddButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChromaAddButton.swift; path = ChromaColorPicker/ChromaAddButton.swift; sourceTree = "<group>"; };
 		319EEDBEA2E044ACEFDA97578F8AD850 /* Pods-TDColorProcessing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TDColorProcessing.debug.xcconfig"; sourceTree = "<group>"; };
-		39B2DDD048A1F6A063B43DFF5C3D9870 /* PaintBucket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PaintBucket-prefix.pch"; sourceTree = "<group>"; };
-		45D9516CADC9EBBA373DC49AA28ABDBD /* PaintBucket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PaintBucket-umbrella.h"; sourceTree = "<group>"; };
+		3B1D0C6EEBB6230A88D8C61B71559888 /* ImageBuffer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageBuffer.swift; path = PaintBucket/ImageBuffer.swift; sourceTree = "<group>"; };
+		496D15242BE5996C62F765750E9FB7DA /* ChromaColorPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ChromaColorPicker.framework; path = ChromaColorPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B43AC55BFDA8B6506F59E75584B42FE /* PaintBucket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PaintBucket-dummy.m"; sourceTree = "<group>"; };
 		50A005C671E57150D8F0B3A3FBBB942B /* Pods-TDColorProcessing-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TDColorProcessing-acknowledgements.markdown"; sourceTree = "<group>"; };
-		59F8C27682997504761AC33C19AF58F2 /* Pods_TDColorProcessing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TDColorProcessing.framework; path = "Pods-TDColorProcessing.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5E8E2BC7F05308E7D1F31D3CAF0D68E8 /* PaintBucket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PaintBucket.framework; path = PaintBucket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		51D9522B6E32A27FAD6F7662A5469D0E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B5BAA8EFA752D3E4EEB2B01E53289A0 /* PaintBucket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PaintBucket-umbrella.h"; sourceTree = "<group>"; };
+		5FE6BF1C5BEFA46890BCFE2397183163 /* ChromaShadeSlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChromaShadeSlider.swift; path = ChromaColorPicker/ChromaShadeSlider.swift; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7341D490F024C20968366905A9B9343B /* PaintBucket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PaintBucket.xcconfig; sourceTree = "<group>"; };
-		77F0EE23D607241C5EEACEF4D372A3FA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		89CB169935A44ABEA3062EF0D67050EA /* ImageBuffer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageBuffer.swift; path = PaintBucket/ImageBuffer.swift; sourceTree = "<group>"; };
+		6F97D56000F41B6DBE6791BC20281759 /* ChromaColorPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ChromaColorPicker.modulemap; sourceTree = "<group>"; };
+		86570121244CA7DC8B55D6B11B2107DD /* PaintBucket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = PaintBucket.modulemap; sourceTree = "<group>"; };
+		8721ACB70FB247FF797C7EF136C7C974 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		924C5EE0AEDEECA7519BC3F725B9D9FB /* ChromaColorPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ChromaColorPicker-dummy.m"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		95FECE83AE901CDB4D18A9AE64852294 /* Pods-TDColorProcessing-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TDColorProcessing-acknowledgements.plist"; sourceTree = "<group>"; };
 		9E885B2CCA54CC0E4245910F50F34CBE /* Pods-TDColorProcessing-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TDColorProcessing-dummy.m"; sourceTree = "<group>"; };
-		AE45D92F8DA154D0B7D408D07290BF58 /* PaintBucket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = PaintBucket.modulemap; sourceTree = "<group>"; };
+		9EE72D2D356B7686EE2098F8323A8E83 /* Pods_TDColorProcessing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TDColorProcessing.framework; path = "Pods-TDColorProcessing.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A66CDC6D1A9C13D77262C776CDECA675 /* ChromaColorPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ChromaColorPicker.xcconfig; sourceTree = "<group>"; };
+		A92A69A56B3CF7425A4A93915E3FFDB0 /* ChromaColorPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChromaColorPicker-umbrella.h"; sourceTree = "<group>"; };
+		AE17374D8236E823A00DF0E320B88229 /* ChromaColorPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChromaColorPicker-prefix.pch"; sourceTree = "<group>"; };
 		B0C58866BBAA2342A92DFF9BC18AA9DF /* Pods-TDColorProcessing.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TDColorProcessing.modulemap"; sourceTree = "<group>"; };
-		BDD3E8505CBD06A7DB7D063F3AEE71BC /* PaintBucket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PaintBucket-dummy.m"; sourceTree = "<group>"; };
-		C50D199ED184062514C8266302B9B3C4 /* Pixel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Pixel.swift; path = PaintBucket/Pixel.swift; sourceTree = "<group>"; };
+		BF16AED8E16E931D2512B1756AC76470 /* PaintBucket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PaintBucket.xcconfig; sourceTree = "<group>"; };
+		C2FE1A75C92424D6A908354CA18939A0 /* PaintBucket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PaintBucket.framework; path = PaintBucket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3109CAEA034A14F9E1426D13BF9B99C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D503F03DB41392D5C052B54FBFCEFAFA /* Pods-TDColorProcessing-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TDColorProcessing-resources.sh"; sourceTree = "<group>"; };
+		D52B629F78D9AC19A131E53D3E10E443 /* ChromaColorPicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChromaColorPicker.swift; path = ChromaColorPicker/ChromaColorPicker.swift; sourceTree = "<group>"; };
 		DF8718C54B9482522F6A5356429803DB /* Pods-TDColorProcessing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TDColorProcessing.release.xcconfig"; sourceTree = "<group>"; };
+		EEA307732A67DF2AC24E8E41E78DA10A /* ColorModeToggleButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorModeToggleButton.swift; path = ChromaColorPicker/ColorModeToggleButton.swift; sourceTree = "<group>"; };
+		F54F89FF021C2E5BA1ED9243F9D395B9 /* ChromaColorPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChromaColorPicker.h; path = ChromaColorPicker/ChromaColorPicker.h; sourceTree = "<group>"; };
 		F81C9A938B4A382CC94AB3A41EA9BA17 /* Pods-TDColorProcessing-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TDColorProcessing-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -63,37 +94,60 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B1B3BA350762C98D432D94BEA8838545 /* Frameworks */ = {
+		A9609B0B7CB1422B4BC35080F77D366E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3B4E20A5C2AE7277301DAC24A45B51E /* Foundation.framework in Frameworks */,
+				AAB4FC655A697CF0F90079CC2C69E0C3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4C778F22C161741FB18E99032D63B84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CCA81B9BFAFFA78C63594B01881EAE9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00804675492BE7288EA7B56F7DC6014E /* Pods */ = {
+		07BAE8D32ACD5275CD5F4E42BB01C7E9 /* ChromaColorPicker */ = {
 			isa = PBXGroup;
 			children = (
-				F6323C6D2E6B06F5B85162FFADB5CC78 /* PaintBucket */,
+				2FE215A37709AC7871E78FD0D4824DE9 /* ChromaAddButton.swift */,
+				F54F89FF021C2E5BA1ED9243F9D395B9 /* ChromaColorPicker.h */,
+				D52B629F78D9AC19A131E53D3E10E443 /* ChromaColorPicker.swift */,
+				237EF5F533AEBFC117F06DB6BC18ABEC /* ChromaHandle.swift */,
+				5FE6BF1C5BEFA46890BCFE2397183163 /* ChromaShadeSlider.swift */,
+				EEA307732A67DF2AC24E8E41E78DA10A /* ColorModeToggleButton.swift */,
+				0E6A89DE03C55296C62889641A6AE8F0 /* UIColor+Utilities.swift */,
+				F13F6BB7BD3830FC98C33F10EA63FE1A /* Support Files */,
 			);
-			name = Pods;
+			name = ChromaColorPicker;
+			path = ChromaColorPicker;
 			sourceTree = "<group>";
 		};
-		7489EEF257FB8E5775AAEC857892B83C /* Support Files */ = {
+		4220F2170B5DDCF85ACDF8137A8F2505 /* PaintBucket */ = {
 			isa = PBXGroup;
 			children = (
-				77F0EE23D607241C5EEACEF4D372A3FA /* Info.plist */,
-				AE45D92F8DA154D0B7D408D07290BF58 /* PaintBucket.modulemap */,
-				7341D490F024C20968366905A9B9343B /* PaintBucket.xcconfig */,
-				BDD3E8505CBD06A7DB7D063F3AEE71BC /* PaintBucket-dummy.m */,
-				39B2DDD048A1F6A063B43DFF5C3D9870 /* PaintBucket-prefix.pch */,
-				45D9516CADC9EBBA373DC49AA28ABDBD /* PaintBucket-umbrella.h */,
+				3B1D0C6EEBB6230A88D8C61B71559888 /* ImageBuffer.swift */,
+				0EDCE2036CEDF23CE298E18CF3AB7906 /* Pixel.swift */,
+				1250C2786592B8195DA7E06D47C84A16 /* UIImage+PaintBucket.swift */,
+				D4F04AAC1C6D81E1E79844A7553A8695 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/PaintBucket";
+			name = PaintBucket;
+			path = PaintBucket;
+			sourceTree = "<group>";
+		};
+		68F8F88C48BE1B8A21A4B2CE26EC9A40 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				07BAE8D32ACD5275CD5F4E42BB01C7E9 /* ChromaColorPicker */,
+				4220F2170B5DDCF85ACDF8137A8F2505 /* PaintBucket */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -101,19 +155,10 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				00804675492BE7288EA7B56F7DC6014E /* Pods */,
-				8B26FA7C00AFDF18AE383361C3C4DDB4 /* Products */,
+				68F8F88C48BE1B8A21A4B2CE26EC9A40 /* Pods */,
+				E4B0863047D92D1E409E12F3FC4A9B7D /* Products */,
 				8CB0ABF867793324510721016942AD48 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		8B26FA7C00AFDF18AE383361C3C4DDB4 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				5E8E2BC7F05308E7D1F31D3CAF0D68E8 /* PaintBucket.framework */,
-				59F8C27682997504761AC33C19AF58F2 /* Pods_TDColorProcessing.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		8CB0ABF867793324510721016942AD48 /* Targets Support Files */ = {
@@ -158,21 +203,56 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		F6323C6D2E6B06F5B85162FFADB5CC78 /* PaintBucket */ = {
+		D4F04AAC1C6D81E1E79844A7553A8695 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				89CB169935A44ABEA3062EF0D67050EA /* ImageBuffer.swift */,
-				C50D199ED184062514C8266302B9B3C4 /* Pixel.swift */,
-				2CDBCBA0AB81D5D7EE30258CAD0B38D8 /* UIImage+PaintBucket.swift */,
-				7489EEF257FB8E5775AAEC857892B83C /* Support Files */,
+				8721ACB70FB247FF797C7EF136C7C974 /* Info.plist */,
+				86570121244CA7DC8B55D6B11B2107DD /* PaintBucket.modulemap */,
+				BF16AED8E16E931D2512B1756AC76470 /* PaintBucket.xcconfig */,
+				4B43AC55BFDA8B6506F59E75584B42FE /* PaintBucket-dummy.m */,
+				0C2AB8963F11D0F865E1EE57310E4B3D /* PaintBucket-prefix.pch */,
+				5B5BAA8EFA752D3E4EEB2B01E53289A0 /* PaintBucket-umbrella.h */,
 			);
-			name = PaintBucket;
-			path = PaintBucket;
+			name = "Support Files";
+			path = "../Target Support Files/PaintBucket";
+			sourceTree = "<group>";
+		};
+		E4B0863047D92D1E409E12F3FC4A9B7D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				496D15242BE5996C62F765750E9FB7DA /* ChromaColorPicker.framework */,
+				C2FE1A75C92424D6A908354CA18939A0 /* PaintBucket.framework */,
+				9EE72D2D356B7686EE2098F8323A8E83 /* Pods_TDColorProcessing.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F13F6BB7BD3830FC98C33F10EA63FE1A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F97D56000F41B6DBE6791BC20281759 /* ChromaColorPicker.modulemap */,
+				A66CDC6D1A9C13D77262C776CDECA675 /* ChromaColorPicker.xcconfig */,
+				924C5EE0AEDEECA7519BC3F725B9D9FB /* ChromaColorPicker-dummy.m */,
+				AE17374D8236E823A00DF0E320B88229 /* ChromaColorPicker-prefix.pch */,
+				A92A69A56B3CF7425A4A93915E3FFDB0 /* ChromaColorPicker-umbrella.h */,
+				51D9522B6E32A27FAD6F7662A5469D0E /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ChromaColorPicker";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		537E3AFB9460117F3179E3397FA5A563 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CD7BD2F25A728501BCA2B2226271982 /* ChromaColorPicker-umbrella.h in Headers */,
+				2F6CDE3B2BA4DA36386508A448EB8C1D /* ChromaColorPicker.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A6648D594A44E3B910D6B88FD38EB330 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -181,33 +261,51 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B19A8A8D6692FAEB15DAE0985662CB72 /* Headers */ = {
+		ACF65FCA19F7CFF3AC55915C817DB0C8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02088C37608DEB850C3292E253E9793E /* Pods-TDColorProcessing-umbrella.h in Headers */,
+				F5291EDEF9A7672B5BA0E58B1EECF6E1 /* Pods-TDColorProcessing-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		21BB0BB83EB9602B53A6870E8409D572 /* Pods-TDColorProcessing */ = {
+		8D6C32EADE8D70D3ABB99A1C59C8443D /* Pods-TDColorProcessing */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7BBB736DF21A4A09335C317DBC98AAC3 /* Build configuration list for PBXNativeTarget "Pods-TDColorProcessing" */;
+			buildConfigurationList = 43135B671E40FC4176A6D198AF138960 /* Build configuration list for PBXNativeTarget "Pods-TDColorProcessing" */;
 			buildPhases = (
-				64B5977838EAB10D7F2C7AD042B5C0BB /* Sources */,
-				B1B3BA350762C98D432D94BEA8838545 /* Frameworks */,
-				B19A8A8D6692FAEB15DAE0985662CB72 /* Headers */,
+				1B97C1323ACA3AA9181C3D35B5BD2681 /* Sources */,
+				A9609B0B7CB1422B4BC35080F77D366E /* Frameworks */,
+				ACF65FCA19F7CFF3AC55915C817DB0C8 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B104BB30DC9B79DA55AA3D420147C966 /* PBXTargetDependency */,
+				F26551B82E2B57DF3DC0B90EAB03864B /* PBXTargetDependency */,
+				DADB8C5AB27FB348FDD12F3428B1F314 /* PBXTargetDependency */,
 			);
 			name = "Pods-TDColorProcessing";
 			productName = "Pods-TDColorProcessing";
-			productReference = 59F8C27682997504761AC33C19AF58F2 /* Pods_TDColorProcessing.framework */;
+			productReference = 9EE72D2D356B7686EE2098F8323A8E83 /* Pods_TDColorProcessing.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		99AA48135ECB557858428F797600458F /* ChromaColorPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 543A042E3FD27E013465D142854479E1 /* Build configuration list for PBXNativeTarget "ChromaColorPicker" */;
+			buildPhases = (
+				F57AD227BCEA188ED1CDF943F7DADE5E /* Sources */,
+				E4C778F22C161741FB18E99032D63B84 /* Frameworks */,
+				537E3AFB9460117F3179E3397FA5A563 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChromaColorPicker;
+			productName = ChromaColorPicker;
+			productReference = 496D15242BE5996C62F765750E9FB7DA /* ChromaColorPicker.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		9BECF1D7FFDC9EDFF4075015C983856C /* PaintBucket */ = {
@@ -224,7 +322,7 @@
 			);
 			name = PaintBucket;
 			productName = PaintBucket;
-			productReference = 5E8E2BC7F05308E7D1F31D3CAF0D68E8 /* PaintBucket.framework */;
+			productReference = C2FE1A75C92424D6A908354CA18939A0 /* PaintBucket.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -244,22 +342,23 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 8B26FA7C00AFDF18AE383361C3C4DDB4 /* Products */;
+			productRefGroup = E4B0863047D92D1E409E12F3FC4A9B7D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				99AA48135ECB557858428F797600458F /* ChromaColorPicker */,
 				9BECF1D7FFDC9EDFF4075015C983856C /* PaintBucket */,
-				21BB0BB83EB9602B53A6870E8409D572 /* Pods-TDColorProcessing */,
+				8D6C32EADE8D70D3ABB99A1C59C8443D /* Pods-TDColorProcessing */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		64B5977838EAB10D7F2C7AD042B5C0BB /* Sources */ = {
+		1B97C1323ACA3AA9181C3D35B5BD2681 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C76E25EA1B64461067FBCD94571FF136 /* Pods-TDColorProcessing-dummy.m in Sources */,
+				D0A1A302617ECB17662CEA2A96E35D0C /* Pods-TDColorProcessing-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,14 +373,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F57AD227BCEA188ED1CDF943F7DADE5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46BE6075A78FD94B44FA92245C2486A4 /* ChromaAddButton.swift in Sources */,
+				40035A7E409B83DCFF7FEB781C2EED00 /* ChromaColorPicker-dummy.m in Sources */,
+				CF264CDB3100B4C274326F95F32BC88B /* ChromaColorPicker.swift in Sources */,
+				EB82E7DA872E98A1B0B1F66C7CE15702 /* ChromaHandle.swift in Sources */,
+				FB24018F9DFDC79925597D4878E12FD4 /* ChromaShadeSlider.swift in Sources */,
+				92F8161F4E07A53E57E3EB2E1FA62238 /* ColorModeToggleButton.swift in Sources */,
+				8C81A1CEF8720A2EEE2BE86779865157 /* UIColor+Utilities.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		B104BB30DC9B79DA55AA3D420147C966 /* PBXTargetDependency */ = {
+		DADB8C5AB27FB348FDD12F3428B1F314 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = PaintBucket;
 			target = 9BECF1D7FFDC9EDFF4075015C983856C /* PaintBucket */;
-			targetProxy = C89E9D6F4AFFDB0EC6A18624C4077324 /* PBXContainerItemProxy */;
+			targetProxy = 9AA1FFD7BB4E9196E39091895FD1C991 /* PBXContainerItemProxy */;
+		};
+		F26551B82E2B57DF3DC0B90EAB03864B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ChromaColorPicker;
+			target = 99AA48135ECB557858428F797600458F /* ChromaColorPicker */;
+			targetProxy = A78829BEAF967454B886233962BEAC9B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -330,7 +449,7 @@
 			};
 			name = Release;
 		};
-		72845C3969CDDBAE59B87209593DF091 /* Debug */ = {
+		84167FE1CF5564BA78760CD23FA42971 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 319EEDBEA2E044ACEFDA97578F8AD850 /* Pods-TDColorProcessing.debug.xcconfig */;
 			buildSettings = {
@@ -369,7 +488,42 @@
 			};
 			name = Debug;
 		};
-		91D48F4F3961E08CC452F11BFF7F09CB /* Release */ = {
+		999160160C73E0C158F46D634DF94318 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF16AED8E16E931D2512B1756AC76470 /* PaintBucket.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PaintBucket/PaintBucket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PaintBucket/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PaintBucket/PaintBucket.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = PaintBucket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A70C0A38F4712DDBFEA2833A00276CE7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DF8718C54B9482522F6A5356429803DB /* Pods-TDColorProcessing.release.xcconfig */;
 			buildSettings = {
@@ -407,9 +561,44 @@
 			};
 			name = Release;
 		};
-		999160160C73E0C158F46D634DF94318 /* Debug */ = {
+		B25C72C40E7F0B2F05D2B879BA8C85A6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7341D490F024C20968366905A9B9343B /* PaintBucket.xcconfig */;
+			baseConfigurationReference = A66CDC6D1A9C13D77262C776CDECA675 /* ChromaColorPicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ChromaColorPicker/ChromaColorPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ChromaColorPicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ChromaColorPicker/ChromaColorPicker.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ChromaColorPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CC5F9E3C59F11BE3F8BB926E4D3FC2AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A66CDC6D1A9C13D77262C776CDECA675 /* ChromaColorPicker.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -423,14 +612,14 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/PaintBucket/PaintBucket-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PaintBucket/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/ChromaColorPicker/ChromaColorPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ChromaColorPicker/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PaintBucket/PaintBucket.modulemap";
+				MODULEMAP_FILE = "Target Support Files/ChromaColorPicker/ChromaColorPicker.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = PaintBucket;
+				PRODUCT_NAME = ChromaColorPicker;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -444,7 +633,7 @@
 		};
 		D9A60461D42E38E147F1043D05D3B93B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7341D490F024C20968366905A9B9343B /* PaintBucket.xcconfig */;
+			baseConfigurationReference = BF16AED8E16E931D2512B1756AC76470 /* PaintBucket.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -538,11 +727,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7BBB736DF21A4A09335C317DBC98AAC3 /* Build configuration list for PBXNativeTarget "Pods-TDColorProcessing" */ = {
+		43135B671E40FC4176A6D198AF138960 /* Build configuration list for PBXNativeTarget "Pods-TDColorProcessing" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				72845C3969CDDBAE59B87209593DF091 /* Debug */,
-				91D48F4F3961E08CC452F11BFF7F09CB /* Release */,
+				84167FE1CF5564BA78760CD23FA42971 /* Debug */,
+				A70C0A38F4712DDBFEA2833A00276CE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		543A042E3FD27E013465D142854479E1 /* Build configuration list for PBXNativeTarget "ChromaColorPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC5F9E3C59F11BE3F8BB926E4D3FC2AC /* Debug */,
+				B25C72C40E7F0B2F05D2B879BA8C85A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
